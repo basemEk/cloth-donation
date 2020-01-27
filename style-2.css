@@ -1,0 +1,26 @@
+
+body{
+    background-image: url("https://image.shutterstock.com/image-photo/donation-concept-box-clothes-on-600w-1199604301.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    /* height: fit-content; */
+  }
+
+
+.form{
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
+.form-text{
+    color: chocolate;
+}
+
+.h1{
+    color:  rgb(230, 83, 16);
+}
+
+#subscribe{
+   background-color: rgba(247, 59, 35, 0.467);
+   border-radius: 5px;
+}

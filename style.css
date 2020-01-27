@@ -1,0 +1,411 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:  rgb(230, 213, 141);
+}
+
+#hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("pics/where-to-donate-clothing-header.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#blog {
+  float: right;
+  background-color: brown;
+}
+
+.topnav a:hover {
+  background-color: #3aa;
+  color: black;
+}
+
+.topnav a.active {
+  /* background-color: red; */
+  color: white;
+}
+
+.topnav a.active:hover {
+  background-color: red;
+  color: white;
+}
+
+h2 {
+  color: maroon;
+} 
+
+
+#imgTextGrid{
+  border:2px solid maroon;
+  padding: 10px;
+  margin: 10em;
+}
+
+#imgSize1{
+  width: 500px;
+  border:2px solid #921;
+  margin: 5px;
+}
+
+#pieceOfLove{
+  position: absolute;
+  line-height: 180px;
+  margin-left: 12em;
+}
+
+.item1 img {
+  width: 100%;
+  height: 40em;
+}
+
+.item2{
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 1.2em;
+  font-size: 2.5em;
+  line-height: 80px;
+  border: 2px dashed red;
+  padding: 10%;
+}
+
+.item3{
+  margin-top: 3em;
+}
+
+.event-pics{
+margin-top: 10%;
+display: grid;
+grid-template-columns: 20% 20% 20% 20% ;
+justify-content: space-between;  
+padding: 5%;
+}
+
+
+.event_hover{
+  color:rgb(21, 54, 197)
+}
+
+.event_hover :hover{
+  color:red;
+}
+
+.events-main-right{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.footer {
+background-color: #333;
+text-align: center;
+padding-top: 75px;
+margin-top:10em;
+}
+
+.footerHeight{
+  height: 400px;
+}
+
+#copy-right{
+  align-items: flex-end;
+  padding-top: 370px;
+  color:#85826e;
+  background-color:#333
+}
+
+.events:hover{
+background-color:red;
+}
+
+#goback{
+  float: right;
+  font-size: 30px;
+  color:#777
+}
+
+#goback:hover{
+  color: red;
+}
+
+#footer-content{
+  width:100%;
+
+}
+
+.footer-section_about-us{
+  float:left;
+  width:33%;
+}
+
+.footer-section_fresh-tweets{
+  float:left;
+  width:33%;
+}
+
+.footer-section_connect-withus{
+  float:left;
+  width:33%;
+}
+
+li{
+  line-height: 3em;
+}
+
+#address{
+  line-height: 120%;
+  color: #f2f2f2;
+}
+
+#address-2{
+  line-height: 100%;
+  color: #f2f2f2;
+}
+
+#address-3{
+  line-height: 200%;
+  color: #f2f2f2;
+}
+
+.footer-section_fresh-tweets li {
+  color: #f2f2f2;
+}
+
+.footer-section_connect-withus li{
+  color: #f2f2f2
+}
+
+.i-facebook{
+  position: absolute;
+  transform: translateY(-50%);
+  margin-left: 700px;
+  left: 300px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.i-facebook:hover{
+  color:red
+}
+
+.btn{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 30%;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn i{
+  line-height: 60px;
+  font-size: 26px;
+  transition: scale(1.3);
+}
+
+.i-insta{
+  position: absolute;
+
+  transform: translateY(-50%);
+  margin-left: 700px;
+  left: 340px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.btn{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 30%;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn i{
+  line-height: 60px;
+  font-size: 26px;
+  transition: scale(1.3);
+}
+
+.i-twitter{
+  position: absolute;
+
+  transform: translateY(-50%);
+  margin-left: 700px;
+  left: 380px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.btn{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 30%;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn i{
+  line-height: 60px;
+  font-size: 26px;
+  transition: scale(1.3);
+}
+
+.i-message{
+  position: absolute;
+
+  transform: translateY(-50%);
+  margin-left: 700px;
+  left: 420px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.btn{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 30%;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn i{
+  line-height: 60px;
+  font-size: 26px;
+  transition: scale(1.3);
+}
+
+
+.i-message :hover{
+  color:blue;
+}
+
+.i-facebook :hover{
+  color:blue;
+}
+
+.i-insta :hover{
+  color:blue;
+}
+
+.i-twitter :hover{
+  color:blue;
+}
+#subscribe{
+  width: 40px;
+  height: 35px;
+  color:blue;
+  font-size: 1em;
+}
+
+#subscribe :hover{
+  color: red;
+  
+}
+
+#subscribe{
+  background-color: rgba(247, 59, 35, 0.467);
+  border-radius: 5px;
+}
+
+
+
+@media screen and (max-width:959px) {
+
+  .item2{
+    width: 100px;
+  }
+
+  .item3{
+    width: 100px;
+  }
+
+ .left-img{
+   width:100px;
+ }
+
+ .left-p{
+   width: 100px;
+ }
+
+ .right-img{
+  width:100px;
+}
+
+.right-p{
+  width: 100px;
+}
+
+}
+
+@media screen and (max-width:640px){
+  .left-img{
+    width:100px;
+  }
+ 
+  .left-p{
+    width: 100px;
+  }
+ 
+  .right-img{
+   width:100px;
+ }
+ 
+ .right-p{
+   width: 100px;
+ }
+ 
+}
+
+
